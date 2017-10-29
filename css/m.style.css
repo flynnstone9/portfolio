@@ -1,11 +1,25 @@
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 body {
-    
     font-family: 'Lato', "Helvetica", "Arial", sans-serif;
     font-size: 1em;
     line-height: 1.5;
     padding: 5em 1em;
     background-color: #FFFFFF;
 }
+
+html {
+	line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5 {
+	line-height: 1.2;
+    color: 
+}
+
 
 img {
     margin: 0 auto;
@@ -22,16 +36,22 @@ section {
 
 }
 
-.spacing {
-    padding: 44px;
-}
-
 .whitebg {
     background-color: #ffffff;
+}
+
+.redbg {
+    color: #e81c4f;
+}
+
+.spacing {
+    padding: 44px;
 }
 
 .contentwidth {
     max-width: 95%;
 }
+
+
 
 
