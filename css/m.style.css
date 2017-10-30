@@ -12,16 +12,14 @@ body {
     line-height: 1.5;
     padding: 5em 1em;
     background-color: #FFFFFF;
-    overflow: auto;
 }
 
-html {
+html {                  
 	line-height: 1.6;
 }
 
 h1, h2, h3, h4, h5 {
 	line-height: 1.2;
-    color: 
 }
 
 
@@ -35,6 +33,21 @@ section {
     padding-bottom: 44px;
 }
 
+a:link, a:visited { 
+    color: #EBE6E2;
+    text-decoration: none;
+    cursor: auto;
+}
+
+a:hover {
+    opacity: 0.4; 
+}
+
+a:link:active, a:visited:active { 
+    color: (internal value);
+}
+
+
 .brownwhitebg {
     background-color: #EBE6E2;
 
@@ -45,7 +58,7 @@ section {
 }
 
 .redbg {
-    color: #e81c4f;
+    color: #e81c4f; 
 }
 
 .spacing {
@@ -56,20 +69,24 @@ section {
     max-width: 95%;
 }
 
+
+/*nav styles */
 nav {
     width: 100%;
     position: fixed;
     z-index: 1000;
-    background-color: #CDD1D1;
 }
 
 .fullpage {
     height: 100%;
+    background-color: #e81c4f;
+    opacity: 0.96
+    overflow:hidden;
 }
 
 
 .patty {
-    width: 32px;
+    width: 20px;
     height: 3px;
     background-color: #282828;
     margin: 4px 0px
@@ -77,10 +94,31 @@ nav {
 
 .nav-links {
     margin: auto;
-    width: 50%;
+    width: 90%;
     font-size: 50px;
+    padding: 10% 1%
 }
 
 .closed {
     display: none;
+}
+
+.nav-burger-holder {
+    width: 10%;
+    margin-top: 1%;
+}
+/* end nav styles */
+.line {
+    height: 1.5px;
+    width: 75%;
+    background-color: #ffffff;
+    opacity: 0.5
+}
+
+.link-div {
+    padding: 5px;
+}
+
+.lower-nav-links {
+    padding-top: 5%;
 }

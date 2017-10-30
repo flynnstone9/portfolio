@@ -13,21 +13,22 @@
 
 <body>
     <nav id="nav-section" role="navigation" aria-label="main navigation">
-        <div class="container">
-            <div class="nav-burger-holder is-pulled-right" id="nav-burger" onclick="navToggle()">
+        
+            <div class="nav-burger-holder is-pulled-right " id="nav-burger" onclick="navToggle()">
                 <div class="patty"></div>
                 <div class="patty"></div>
                 <div class="patty"></div>
             </div>
             <div class="nav-links closed" id="nav-links"> 
-                <div><a href="#">Home</a> </div>
-                <div><a href="#">Work</a> </div>
-                <div><a href="#">Bio</a> </div>
-                <div><a href="#">Images</a> </div>
+                <div class="link-div"><a href="#">Home</a> </div>
+                <div class="link-div"><a href="#">Work</a> </div>
+                <div class="link-div"><a href="#">Videos</a> </div>
+                <div class="link-div"><a href="#">Blog</a> </div>
+                <div class="lower-nav-links">
                 <div class="line"></div>
-                <div><a href="#">connormflynn@gmail.com</a> </div>
-            </div>
-        </div><!--end nav container-->
+                <div class="link-div"><a href="#">connormflynn@gmail.com</a> </div>
+            </div></div>
+        
     </nav>
    
     
@@ -93,22 +94,17 @@
     </section>
         
         <script>
-        
-
+    
 function navToggle(){
     var navLinks = document.getElementById('nav-links');
     var navSection = document.getElementById('nav-section');
 
-    
     navLinks.classList.toggle('closed');
-    navSection.classList.toggle('fullpage');
-
-    
+    navSection.classList.toggle('fullpage');    
 }
             
-
-
         </script>
+        
 </body>
 
 </html>
