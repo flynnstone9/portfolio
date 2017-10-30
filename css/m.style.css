@@ -99,8 +99,8 @@ nav {
 .nav-links {
     margin: auto;
     width: 90%;
-    font-size: 45px;
-    padding: 10% 1%
+    font-size: 40px;
+    padding: 7.5% 1%
 }
 
 .closed {
@@ -108,7 +108,7 @@ nav {
 }
 
 .nav-burger-holder {
-    margin: 5% 10%;
+    margin: 10% 10%;
 }
 /* end nav styles */
 .line {
@@ -123,7 +123,7 @@ nav {
 }
 
 .lower-nav-links {
-    margin: 100px 0;
+    margin: 70px 0;
 }
 
 .accentfont {
