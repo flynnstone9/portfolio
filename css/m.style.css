@@ -1,6 +1,9 @@
 html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    overflow: auto;
+}
+
 }
 
 body {
@@ -9,6 +12,7 @@ body {
     line-height: 1.5;
     padding: 5em 1em;
     background-color: #FFFFFF;
+    overflow: auto;
 }
 
 html {
@@ -52,6 +56,31 @@ section {
     max-width: 95%;
 }
 
+nav {
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    background-color: #CDD1D1;
+}
+
+.fullpage {
+    height: 100%;
+}
 
 
+.patty {
+    width: 32px;
+    height: 3px;
+    background-color: #282828;
+    margin: 4px 0px
+}
 
+.nav-links {
+    margin: auto;
+    width: 50%;
+    font-size: 50px;
+}
+
+.closed {
+    display: none;
+}
