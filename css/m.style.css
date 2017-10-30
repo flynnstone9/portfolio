@@ -25,7 +25,6 @@ h1, h2, h3, h4, h5 {
 	line-height: 1.2;
 }
 
-
 img {
     margin: 0 auto;
     width: 100%
@@ -130,5 +129,34 @@ nav {
 .accentfont {
     font-family: 'Roboto Mono', monospace !important;
     font-weight: 100;
-    font-size: 20px
+    font-size: 20px;
+}
+
+
+
+/*footer styles */
+
+i {
+    padding: 20px;
+}
+
+#emailfooter {
+    color: #e81c4f;
+}
+
+#emailfooter:hover {
+    color: #e81c4f;
+    opacity: 0.4;
+}
+
+
+#footernote {
+    margin: auto 0;
+    width: 100%;
+    text-align: center;
+}
+
+#copyright {
+    font-size: 12px;
+    opacity: 0.8;
 }
