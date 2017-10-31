@@ -10,7 +10,7 @@ body {
     font-family: 'Lato', "Helvetica", "Arial", sans-serif;
     font-size: 1em;
     line-height: 1.5;
-    padding: 100em 1em;
+    padding: 10em 1em;
     background-color: #FFFFFF;
 }
 
@@ -31,9 +31,15 @@ img {
 }
 
 section {
-    padding-top: 200px;
+    padding-top: 100px;
     padding-bottom: 44px;
 }
+
+
+.bottomspacing {
+    padding-bottom: 44px;
+}
+
 
 a:link, a:visited { 
     color: #EBE6E2;
@@ -161,7 +167,8 @@ i {
     opacity: 0.8;
 }
 
-.topBottom {
-    padding-top: 66px;
-    padding-bottom: 44px;
+#redfix {
+    color: #e81c4f;
 }
+
+
