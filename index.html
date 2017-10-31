@@ -1,48 +1,55 @@
+<!DOCTYPE html>
 <html>
 
 <head lang="en">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>CMF | Portfolio</title>
     <link rel="stylesheet" type="text/css" href="css/m.style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,700|Roboto+Mono:100" rel="stylesheet">
     <!--bulma test -->
-    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css">
-</head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css"> </head>
+
+    
+<nav id="nav-section" role="navigation" aria-label="main navigation">
+    <div class="nav-burger-holder is-pulled-right " id="nav-burger" onclick="navToggle()">
+        <div class="patty"></div>
+        <div class="patty"></div>
+        <div class="patty"></div>
+    </div>
+    <div class="nav-links closed" id="nav-links">
+        <div class="link-div"><a href="#">Portfolio</a> </div>
+        <div class="link-div"><a href="#">Videos</a> </div>
+        <div class="link-div"><a href="#">Bio</a> </div>
+        <div class="link-div"><a href="#">Social</a> </div>
+        <div class="lower-nav-links">
+            <div class="line"></div>
+            <div class="link-div"><a href="#" class="accentfont">connormflynn@gmail.com</a> </div>
+        </div>
+    </div>
+</nav>
 
 <body>
-    <nav id="nav-section" role="navigation" aria-label="main navigation">
-        
-            <div class="nav-burger-holder is-pulled-right " id="nav-burger" onclick="navToggle()">
-                <div class="patty"></div>
-                <div class="patty"></div>
-                <div class="patty"></div>
-            </div>
-            <div class="nav-links closed" id="nav-links"> 
-                <div class="link-div"><a href="#">Portfolio</a> </div>
-                <div class="link-div"><a href="#">Videos</a> </div>
-                <div class="link-div"><a href="#">Bio</a> </div>
-                <div class="link-div"><a href="#">Social</a> </div>
-                <div class="lower-nav-links">
-                <div class="line"></div>
-                <div class="link-div"><a href="#" class="accentfont">connormflynn@gmail.com</a> </div>
-            </div></div>
-        
-    </nav>
-   
-    
     <section>
         <div class="container contentwidth">
             <div class="columns is-mobile is-centered">
-                <div class="column is-half-mobile"> <img src="images/coffee.jpg"> </div>
                 <div class="column is-half-mobile">
-                    <p class="title">CONNOR FLYNN</p>
-                    <p class="subtitle"><span class="redbg">Filmmaking and Web Interfaces</span></p>
+                    <div>
+                        <p class="title"> CONNOR
+                            <br> MORRELL
+                            <br> FLYNN </p>
+                    </div>
+                    <div class="topBottom">
+                        <p><b>Previous Work</b></p>
+                        <p>Flashtalking (ad server) -  Certifications</p>
+                        <p>Gallerique (e-commerce) - Tech Lead / Film</p>
+                    </div>
+                    <div> <a href='#' class="accentfont" id="emailfooter">web / design / film</a> </div>
                 </div>
+                <div class="column is-half-mobile"> <img src="images/coffee.jpg"> </div>
             </div>
     </section>
     <section class="brownwhitebg">
@@ -66,7 +73,6 @@
                             <div class="spacing whitebg">
                                 <p class="subtitle">Timelaspe - Northern Michigan</p> Personal Project </div>
                         </div>
-                        
                         <!--end nested columns -->
                     </div>
                 </div>
@@ -79,12 +85,7 @@
                     <h2 class="title">Get in touch! Happy to hear your requirements and get started on a project :)
             </h2>
                     <div class="columns is-mobile" id="social">
-                        <div class="column is-one-fifth social-icon">
-                            <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
-                            <i class="fa fa-vimeo fa-3x" aria-hidden="true"></i>
-                            <i class="fa fa-linkedin fa-3x" aria-hidden="true"></i>
-                        </div>
-  
+                        <div class="column is-one-fifth social-icon"> <i class="fa fa-instagram fa-3x" aria-hidden="true"></i> <i class="fa fa-vimeo fa-3x" aria-hidden="true"></i> <i class="fa fa-linkedin fa-3x" aria-hidden="true"></i> </div>
                     </div>
                     <!--end nested columns-->
                     <div class="contact"> <a href='mailto:connormflynn@gmail.com' class="accentfont" id="emailfooter">connormflynn@gmail.com</a> </div>
@@ -99,19 +100,14 @@
         </div>
         <!--end container -->
     </section>
-        
-        <script>
-    
-function navToggle(){
-    var navLinks = document.getElementById('nav-links');
-    var navSection = document.getElementById('nav-section');
-
-    navLinks.classList.toggle('closed');
-    navSection.classList.toggle('fullpage');    
-}
-            
-        </script>
-        
+    <script>
+        function navToggle() {
+            var navLinks = document.getElementById('nav-links');
+            var navSection = document.getElementById('nav-section');
+            navLinks.classList.toggle('closed');
+            navSection.classList.toggle('fullpage');
+        }
+    </script>
 </body>
 
 </html>
