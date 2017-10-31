@@ -59,7 +59,7 @@ a:link:active, a:visited:active {
 
 
 .brownwhitebg {
-    background-color: #EBE6E2;
+    background-color: #F2F2F2;
 
 }
 
@@ -171,4 +171,24 @@ i {
     color: #e81c4f;
 }
 
+.lineDivd {
+    height: 1px;
+    width: 100%;
+    background-color: #424242;
+    opacity: 0.6;
+    margin-top: 44px;
+    margin-bottom: 44px;
+}
 
+
+.full-width-image {
+    background-color: red;
+    width: 100%;
+    height: auto;
+}
+
+.half-width-image {
+    background-color: red;
+    width: 100%;
+    height: auto;
+}
