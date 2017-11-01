@@ -159,7 +159,7 @@ i {
 #footernote {
     margin: auto 0;
     width: 100%;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 #copyright {
@@ -182,13 +182,13 @@ i {
 
 
 .full-width-image {
-    background-color: red;
+    background-color: ;
     width: 100%;
     height: auto;
 }
 
 .half-width-image {
-    background-color: red;
+    
     width: 100%;
     height: auto;
 }
