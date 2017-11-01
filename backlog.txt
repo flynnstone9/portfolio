@@ -1,0 +1,21 @@
+features to add:
+1. open images lightbox (model)
+2. desktop nav
+3. for the Images.html add - on other side of bottom descirtion add tools used to create
+Iphone
+PS 
+Illustrator
+
+Sony A6300
+PS
+IL
+
+
+stuff i'm learning:
+1. have components styled before starting process
+2. plan mobile and desktop design before hand
+3. modular (views) is a better approach - if you change nav it updates on all pages
+
+
+
+
