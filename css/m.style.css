@@ -32,13 +32,13 @@ img {
 }
 
 section {
-    padding-top: 100px;
+    padding-top: 75px;
     padding-bottom: 44px;
 }
 
 
 .bottomspacing {
-    padding-bottom: 44px;
+    padding: 44px;
 }
 
 
@@ -76,7 +76,7 @@ a:link:active, a:visited:active {
 }
 
 .contentwidth {
-    max-width: 90%;
+    max-width: 80%;
 }
 
 .contentwidth-tight {
@@ -163,7 +163,7 @@ i {
 
 
 #footernote {
-    margin: auto 0;
+    margin: 50px 0 0 0;
     width: 100%;
     /*text-align: center;*/
 }
@@ -210,8 +210,6 @@ i {
     opacity: 0.4;
     margin-bottom: 44px;
 }
-
-
 
 .light-grey {
     color: #afafaf;

@@ -1,14 +1,21 @@
 features to add:
-1. open images lightbox (model)
-2. desktop nav
-3. for the Images.html add - on other side of bottom descirtion add tools used to create
-Iphone
-PS 
-Illustrator
+    cards main page - put project image in a div 
+    nav -mobile - no moving the background page
+    nav -mobile - x animation
+    
+    mobile no x axis moving
+    open images lightbox (model)
+    desktop nav
+    v.1 in the menu nave
+    
+    10. for the Images.html add - on other side of bottom descirtion add tools used to create - maybe like a tag with an icon
+    Iphone
+    PS 
+    Illustrator
 
-Sony A6300
-PS
-IL
+    Sony A6300
+    PS
+    IL
 
 
 stuff i'm learning:
@@ -18,4 +25,8 @@ stuff i'm learning:
 
 
 
+
+
+
+content-style the stretch of elements inside the container
 
