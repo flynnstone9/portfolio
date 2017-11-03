@@ -15,15 +15,23 @@ body {
     color: #3D3D3D;
 }
 
-
-html, body, div, p, a, span, section {
+html,
+body,
+div,
+p,
+a,
+span,
+section {
     font-family: 'Lato', "Helvetica", "Arial", sans-serif;
     font-weight: 300;
 }
 
-
-h1, h2, h3, h4, h5 {
-	line-height: 1.2;
+h1,
+h2,
+h3,
+h4,
+h5 {
+    line-height: 1.2;
 }
 
 img {
@@ -36,13 +44,12 @@ section {
     padding-bottom: 44px;
 }
 
-
 .bottomspacing {
     padding: 44px;
 }
 
-
-a:link, a:visited { 
+a:link,
+a:visited {
     color: #EBE6E2;
     font-weight: 700;
     text-decoration: none;
@@ -51,13 +58,13 @@ a:link, a:visited {
 
 div a:hover {
     color: #E5658A;
-    opacity: 0.; 
+    opacity: 0.8;
 }
 
-a:link:active, a:visited:active { 
+a:link:active,
+a:visited:active {
     color: (internal value);
 }
-
 
 .brownwhitebg {
     background-color: #F2F2F2;
@@ -68,7 +75,7 @@ a:link:active, a:visited:active {
 }
 
 .redbg {
-    color: #e81c4f; 
+    color: #e81c4f;
 }
 
 .spacing {
@@ -76,7 +83,7 @@ a:link:active, a:visited:active {
 }
 
 .contentwidth {
-    max-width: 80%;
+    max-width: 85%;
 }
 
 .contentwidth-tight {
@@ -87,6 +94,7 @@ a:link:active, a:visited:active {
 
 
 /*nav styles */
+
 nav {
     width: 100%;
     position: fixed;
@@ -97,9 +105,8 @@ nav {
     height: 100%;
     background-color: #e81c4f;
     opacity: 0.95;
-    overflow:hidden;
+    overflow: hidden;
 }
-
 
 .patty {
     width: 20px;
@@ -122,7 +129,11 @@ nav {
 .nav-burger-holder {
     margin: 10% 10%;
 }
-/* end nav styles */
+
+.lower-nav-links {
+    margin: 70px 0;
+}
+
 .line {
     height: 2px;
     width: 75%;
@@ -134,16 +145,102 @@ nav {
     margin-top: 30px;
 }
 
-.lower-nav-links {
-    margin: 70px 0;
+@media only screen and (min-width: 769px) {
+    nav {
+        width: 100%;
+        height: 7%;
+        background-color: #ffffff;
+        position: fixed;
+        z-index: 1000;
+    }
+    .box-shadow-hard {
+       box-shadow:  0 1px 0 rgba(12,13,14,0.15), 0 0 0 transparent, 0 0 0 transparent, 0 0 0 transparent;
+    }
+    .box-shadow-soft {
+            box-shadow: 0 1px 0 rgba(12,13,14,0.1), 0 1px 3px rgba(12,13,14,0.1), 0 4px 20px rgba(12,13,14,0.035), 0 1px 1px rgba(12,13,14,0.025);        
+    }
+    .nav-links {
+        margin: 0;
+        width: 80%;
+       font-size: 14px;
+        padding: 0px 0px;
+        align-content: center;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 59px;
+    }
+    .link-div {
+        margin-top: 0px;
+        padding-left: 44px;
+        display: inline-block;
+    }
+    nav div div a:link,
+    nav div div a:visited {
+    font-family: 'Roboto Mono', monospace ;
+        color: #3D3D3D;
+        font-family: 
+        text-decoration: none;
+        cursor: auto;
+        opacity: 0.6;
+    }
+    nav div div a:hover {
+        color: #3D3D3D;
+        opacity: 1;
+    }
+    a:link:active,
+    a:visited:active {
+        color: (internal value);
+    }
+    .nav-burger-holder {
+        margin: 0% 0%;
+    }
+    .fullpage {
+        height: 0%;
+        background-color: #e81c4f;
+        opacity: 0.95;
+        overflow: hidden;
+        display: none;
+    }
+    .patty {
+        width: 0px;
+        height: 0px;
+        background-color: #282828;
+        margin: 4px 0px;
+        display: none;
+    }
+    .closed {
+        display: block;
+    }
+    .line {
+        height: 0px;
+        width: 0%;
+        opacity: 0;
+        display: none;
+    }
+    .lower-nav-links {
+        margin: 0px 0;
+        display: none;
+    }
+    nav div div a.active-nav-link {
+        text-decoration: line-through;
+        color: #e81c4f;
+        font-family: 'Roboto Mono', monospace ;
+        cursor: auto;
+        opacity: 0.6;
+    }
 }
+
+
+/*end tablet and above nav styles */
+
+
+/* end nav styles */
 
 .accentfont {
     font-family: 'Roboto Mono', monospace !important;
     font-weight: 100;
     font-size: 20px;
 }
-
 
 
 /*footer styles */
@@ -160,7 +257,6 @@ i {
     color: #e81c4f;
     opacity: 0.4;
 }
-
 
 #footernote {
     margin: 50px 0 0 0;
@@ -186,7 +282,6 @@ i {
     margin-bottom: 44px;
 }
 
-
 .full-width-image {
     background-color: ;
     width: 100%;
@@ -194,7 +289,6 @@ i {
 }
 
 .half-width-image {
-    
     width: 100%;
     height: auto;
 }

@@ -5,7 +5,6 @@ features to add:
     
     mobile no x axis moving
     open images lightbox (model)
-    desktop nav
     v.1 in the menu nave
     
     10. for the Images.html add - on other side of bottom descirtion add tools used to create - maybe like a tag with an icon
@@ -16,6 +15,22 @@ features to add:
     Sony A6300
     PS
     IL
+    
+    
+    todo: 
+    gothrough that reddit web dev frontend checklist
+    look at that sites head tag for any other meta tags needed
+
+
+
+
+
+bugs: 
+    for desktop, click "contact" in nav gets rid of nav bar with one or two clicks :(
+
+
+
+
 
 
 stuff i'm learning:
@@ -28,5 +43,7 @@ stuff i'm learning:
 
 
 
-content-style the stretch of elements inside the container
+content-width stylpe 
+the stretch of elements inside the container
+but only working on mobile and smaller sizes???
 
