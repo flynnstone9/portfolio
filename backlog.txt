@@ -1,35 +1,23 @@
 features to add:
-    cards main page - put project image in a div 
-    nav -mobile - no moving the background page
-    nav -mobile - x animation
-    next link on background
+    
+    card title need heiarchy
+    consider re
+    
+    next link on project
     mobile no x axis moving
     open images lightbox (model)
     v.1 in the menu nave
     icons for skill secton
     10. for the Images.html add - on other side of bottom descirtion add tools used to create - maybe like a tag with an icon
-    Iphone
-    PS 
-    Illustrator
 
-    Sony A6300
-    PS
-    IL
+    
+bugs: 
+    for desktop, click "contact" in nav gets rid of nav bar with one or two clicks :(    
     
     
-    todo: 
+todo after main work is done: 
     gothrough that reddit web dev frontend checklist
     look at that sites head tag for any other meta tags needed
-
-
-
-
-
-bugs: 
-    for desktop, click "contact" in nav gets rid of nav bar with one or two clicks :(
-
-
-
 
 
 
@@ -46,3 +34,4 @@ but only working on mobile and smaller sizes???
 
 a thought: after core website is done - just add a feature a day... will make it easier and let's me do other stuff during the day... 
 
+look into sass - preprocessors - setting up projects with an init

@@ -143,7 +143,7 @@ nav {
 }
 
 .link-div {
-    margin-top: 30px;
+    margin-top: 12px;
 }
 
 @media only screen and (min-width: 769px) {
@@ -313,3 +313,35 @@ i {
 .frozenPosition {
     position: fixed;
 }
+
+
+/*card css */
+.card {
+    border: 1px solid #efefef;
+    box-shadow: 2px 6px 25px rgba(0, 0, 0, 0.1);
+    transition: all .3s ease;
+    
+}
+
+.card:hover {
+    box-shadow: 2px 6px 30px rgba(0, 0, 0, 0.2);
+}
+
+.card-image {
+    height: 220px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.card-content {
+ margin: 15px 0;
+}
+.card .card-content p {
+    margin: 0 30px;
+}
+
+.card .card-content .subtitle {
+    margin: 0px;
+}
+/* card css end */
