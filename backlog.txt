@@ -2,11 +2,11 @@ features to add:
     cards main page - put project image in a div 
     nav -mobile - no moving the background page
     nav -mobile - x animation
-    
+    next link on background
     mobile no x axis moving
     open images lightbox (model)
     v.1 in the menu nave
-    
+    icons for skill secton
     10. for the Images.html add - on other side of bottom descirtion add tools used to create - maybe like a tag with an icon
     Iphone
     PS 
@@ -37,13 +37,12 @@ stuff i'm learning:
 1. have components styled before starting process
 2. plan mobile and desktop design before hand
 3. modular (views) is a better approach - if you change nav it updates on all pages
-
-
-
-
-
+4. breaking it all out in little junks, is the only way to get it done for me
+5. thinking mobile was helpful 
 
 content-width stylpe 
 the stretch of elements inside the container
 but only working on mobile and smaller sizes???
+
+a thought: after core website is done - just add a feature a day... will make it easier and let's me do other stuff during the day... 
 

@@ -30,7 +30,7 @@
     </div>
 </nav>
 
-<body>
+<body id="body-select">
     <section>
         <div class="container contentwidth">
             <div class="columns is-centered">
@@ -70,10 +70,41 @@
                             <div class="spacing whitebg">
                                 <p class="subtitle">World Art Dubai</p>Web / Desgin Project </div>
                         </div>
-                        <!--end nested columns -->
-                    </div>
-                </div>
-            </div>
+                        
+                        
+                    </div><!--end nested columns -->
+                </div> <!--end column1-->
+            </div> <!--end columns1-->
+            
+                   <div class="columns">
+                <div class="column">
+                    <h3 class="title">
+        PROJECTS
+      </h1>
+                    <!--nested columns -->
+                    <div class="columns">
+                        
+                        <div class="column">
+                        <a href="project.gallerique.html">
+                            <img src="images/wadpage.png">
+                            <div class="spacing whitebg">
+                                <p class="subtitle">Gallerique (E-commerce Startup)</p> Design and Concept Work </div>
+                            </a>
+                        </div>
+                            
+                        <div class="column"> <img src="images/BeigeLakeMt.jpg">
+                            <div class="spacing whitebg">
+                                <p class="subtitle">Joey Pecoraro - Concept Art</p> Design / Web Project </div>
+                        </div>
+                        <div class="column"> <img src="images/CloudyGreenMt.jpg">
+                            <div class="spacing whitebg">
+                                <p class="subtitle">World Art Dubai</p>Web / Desgin Project </div>
+                        </div>
+                        
+                        
+                    </div><!--end nested columns -->
+                </div> <!--end column1-->
+            </div> <!--end columns1-->
     </section>
         
  <!--footer start -->
@@ -109,9 +140,12 @@
         function navToggle() {
             var navLinks = document.getElementById('nav-links');
             var navSection = document.getElementById('nav-section');
+            var docBody = document.getElementById('body-select');
+            
             navLinks.classList.toggle('closed');
             navSection.classList.toggle('fullpage');
-            
+            docBody.classList.toggle('frozenPosition');    
+                 
         }
         
     </script>

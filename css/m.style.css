@@ -1,9 +1,10 @@
 html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    overflow: auto;
     line-height: 1.6;
     overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 body {
@@ -307,4 +308,8 @@ i {
 
 .light-grey {
     color: #afafaf;
+}
+
+.frozenPosition {
+    position: fixed;
 }
