@@ -1,11 +1,13 @@
 features to add:
     
     card title need heiarchy
-    consider re
+    consider top hero part
     
     next link on project
-    mobile no x axis moving
     open images lightbox (model)
+    animations
+    
+    
     v.1 in the menu nave
     icons for skill secton
     10. for the Images.html add - on other side of bottom descirtion add tools used to create - maybe like a tag with an icon
