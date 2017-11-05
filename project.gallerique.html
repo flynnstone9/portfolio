@@ -11,7 +11,10 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,700|Roboto+Mono:100" rel="stylesheet">
     <!--bulma test -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css"> </head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css">
+    
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
 
 
     
@@ -40,7 +43,7 @@
             <div class="columns is-mobile is-centered">
                 <div class="column">
                     <h1 class="title">GALLERIQUE</h1>
-                    <p>Gallerique is an e-commerce start-up for painting, photography, sculpture, furniture, and antiques based out of Chicago. I was the tech lead at Gallerique. Managing our web designer and developer. In addition, I helped onboard new artist onto the site. The skills I used at Gallerique inclulde HTML, CSS, JS, Google Suite, Photoshop, Illustrator, and After Effects.</p> <img src="images/gallerique_home.png">
+                    <p>Gallerique is an e-commerce start-up for painting, photography, sculpture, furniture, and antiques based out of Chicago. I was the tech lead at Gallerique. Managing our web designer and developer. In addition, I helped onboard new artist onto the site. The skills I used at Gallerique inclulde HTML, CSS, JS, Google Suite, Photoshop, Illustrator, and After Effects.</p> <img class="enlarge" src="images/gallerique_home.png" onclick="imageEnlarge(this.id)">
                     <div class="lineDivd"></div>
                     <h3 class="subtitle">PROJECT 1</h3>
                     <h2 class="title">WORLD ART DUBAI 2016 x GALLERIQUE</h2>
@@ -54,13 +57,13 @@
         <div class="container contentwidth">
             <div class="columns">
                 <div class="column">
-                    <div class="full-width-image"> <img src="images/wadMacbook.png"> </div>
+                    <div class="full-width-image"> <img class="enlarge" onclick="imageEnlarge(this.id)" src="images/wadMacbook.png"> </div>
                     <div class="columns">
                         <div class="column">
-                            <div class="half-width-image"> <img src="images/wadpage.png"> </div>
+                            <div class="half-width-image"> <img class="enlarge" onclick="imageEnlarge(this.id)" src="images/wadpage.png"> </div>
                         </div>
                         <div class="column">
-                            <div class="half-width-image"> <img src="images/wadpageMacbook.png"> </div>
+                            <div class="half-width-image"> <img class="enlarge" onclick="imageEnlarge(this.id)" src="images/wadpageMacbook.png"> </div>
                         </div>
                     </div>
                 </div>
@@ -77,8 +80,8 @@
                 </div>
             </div>
             <div class="columns is-centered brownwhitebg">
-                <div class="column"> <img src="images/Gallerique_Diagonal_1080_30.gif"> </div>
-                <div class="column"> <img src="images/gallerique_simple.gif"> </div>
+                <div class="column"> <img class="enlarge" onclick="imageEnlarge(this.id)" src="images/Gallerique_Diagonal_1080_30.gif"> </div>
+                <div class="column"> <img class="enlarge" onclick="imageEnlarge(this.id)" src="images/gallerique_simple.gif"> </div>
             </div>
         </div>
     </section>
@@ -112,12 +115,47 @@
         </div>
         <!--end container -->
     </section>
+        <div id="popup" class="hidden">
+        <div id="popup-image-wrap"> 
+            <img id="popup-image" onclick="imageEnlarge(this.id)">
+        </div>
+    </div>
     <script>
+          $( document ).ready(function() {
+        function imgIDs() { 
+            var enlargableImages = document.getElementsByClassName('enlarge');
+    
+                    for (i=0; i<enlargableImages.length; i++){
+                    var num = i;
+                    var id = 'img' + num.toString();
+                    enlargableImages[i].id = id;
+                    console.log(id);
+                    console.log(num);
+                    }
+        }
+         
+            imgIDs();
+        });
+     
+                
         function navToggle() {
             var navLinks = document.getElementById('nav-links');
             var navSection = document.getElementById('nav-section');
             navLinks.classList.toggle('closed');
             navSection.classList.toggle('fullpage');
+            
+        }
+        
+        function imageEnlarge(id) {
+            var selectedImageWidth = document.getElementById(id).naturalWidth;
+            var selectedImagesrc = document.getElementById(id).src;
+                   
+            
+            $('#popup-image').attr("src", selectedImagesrc);
+            $('#popup-image-wrap').width(selectedImageWidth);
+            
+            $('#popup').toggleClass('hidden');
+            $('#popup').toggleClass('flexy');
         }
     </script>
 </body>

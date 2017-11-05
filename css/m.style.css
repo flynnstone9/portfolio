@@ -346,6 +346,32 @@ i {
 }
 /* card css end */
 
+/*popup styles */
 .hidden {
     display:none;
 }
+
+.flexy {
+    display: flex;
+}
+#popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: 10000000;
+}
+
+#popup-image-wrap {
+    width: 50%;
+    max-width: 1000px;
+    height: auto;
+    position: relative;
+    margin: auto auto;
+}
+/*end popup styles */
+
+
+
