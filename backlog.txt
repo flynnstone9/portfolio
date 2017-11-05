@@ -37,3 +37,12 @@ but only working on mobile and smaller sizes???
 a thought: after core website is done - just add a feature a day... will make it easier and let's me do other stuff during the day... 
 
 look into sass - preprocessors - setting up projects with an init
+
+
+
+
+
+to get enlarge working - need to add script DOM ready to each page 
+add actual script at bottom 
+
+fuck this try moving scripts to a folder

@@ -11,7 +11,9 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,700|Roboto+Mono:100" rel="stylesheet">
     <!--bulma test -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css"> </head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
 <nav id="nav-section" class="box-shadow-hard box-shadow-soft"role="navigation" aria-label="main navigation">
     <div class="nav-burger-holder is-pulled-right " id="nav-burger" onclick="navToggle()">
         <div class="patty"></div>
@@ -57,7 +59,7 @@
     <div class="columns is-mobile">
         <div class="column"></div>
         <div class="column is-two-thirds">
-            <div class="full-width-image"> <img src="images/alienscoming.png"> </div>
+            <div class="full-width-image"> <img class="enlarge" onclick="imageEnlarge(this.id)" src="images/alienscoming.png"> </div>
             <h3 class="is-size-7 light-grey">11/4/17</h3>
             <p class="image-spacing">invasion...</p>
             <div class="lineDivd-images"></div>
@@ -70,7 +72,7 @@
     <div class="columns is-mobile">
         <div class="column"></div>
         <div class="column is-two-thirds">
-            <div class="full-width-image"> <img src="images/joeywatercolor.jpg"> </div>
+            <div class="full-width-image"> <img class="enlarge" onclick="imageEnlarge(this.id)" src="images/joeywatercolor.jpg"> </div>
             <h3 class="is-size-7 light-grey">11/3/17</h3>
             <p class="image-spacing">watercolor concepts</p>
             <div class="lineDivd-images"></div>
@@ -82,7 +84,7 @@
     <div class="columns is-mobile">
         <div class="column"></div>
         <div class="column is-two-thirds">
-            <div class="full-width-image"> <img src="images/bitdepth2-colorizedwithnoise.png"> </div>
+            <div class="full-width-image"> <img class="enlarge" src="images/bitdepth2-colorizedwithnoise.png"> </div>
             <h3 class="is-size-7 light-grey">11/1/17</h3>
             <p class="image-spacing">short film concept title</p>
             <div class="lineDivd-images"></div>
@@ -97,7 +99,7 @@
     <div class="columns is-mobile">
         <div class="column"></div>
         <div class="column is-two-thirds">
-            <div class="full-width-image"> <img src="images/CloudyGreenMt.jpg"> </div>
+            <div class="full-width-image"> <img class="enlarge" src="images/CloudyGreenMt.jpg"> </div>
             <h3 class="is-size-7 light-grey">11/1/17</h3>
             <p class="image-spacing">a grn mtn range</p>
             <div class="lineDivd-images"></div>
@@ -172,12 +174,41 @@
         <!--end container -->
     </section>
     <script>
+        
+       $( document ).ready(function() {
+        function imgIDs() { 
+            var enlargableImages = document.getElementsByClassName('enlarge');
+            console.log(enlargableImages.length);
+                    for (i=0; i<enlargableImages.length; i++){
+                    var num = i;
+                    var id = 'img' + num.toString();
+                    enlargableImages[i].id = id;
+                    console.log(id);
+                    console.log(num);
+                    }
+        }
+         
+            imgIDs();
+        });
+     
+                
         function navToggle() {
             var navLinks = document.getElementById('nav-links');
             var navSection = document.getElementById('nav-section');
             navLinks.classList.toggle('closed');
             navSection.classList.toggle('fullpage');
             
+        }
+        
+        function imageEnlarge(id) {
+            var selectedImage = document.getElementById(id);
+            var selectedImageid = document.getElementById(id).src; //going to set this to body background url
+          console.log(id);
+            var pageElemments =  $("body > :not(#" + id + ")");
+            pageElemments.fadeToggle( "slow", "linear" );
+            
+           // $("body > :not(#" + id + ")").hide(); //hide all nodes directly under the body
+            $('#' + id ).appendTo('body');
         }
         
     </script>
