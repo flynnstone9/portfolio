@@ -129,8 +129,6 @@
                     var num = i;
                     var id = 'img' + num.toString();
                     enlargableImages[i].id = id;
-                    console.log(id);
-                    console.log(num);
                     }
         }
          
@@ -138,12 +136,14 @@
         });
      
                 
-        function navToggle() {
+ function navToggle() {
             var navLinks = document.getElementById('nav-links');
             var navSection = document.getElementById('nav-section');
+            var docBody = document.getElementById('body-select');
+            
             navLinks.classList.toggle('closed');
             navSection.classList.toggle('fullpage');
-            
+            docBody.classList.toggle('frozenPosition');
         }
         
         function imageEnlarge(id) {

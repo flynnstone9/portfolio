@@ -137,12 +137,14 @@
         <!--end container -->
     </section>
     <script>
-        function navToggle() {
+ function navToggle() {
             var navLinks = document.getElementById('nav-links');
             var navSection = document.getElementById('nav-section');
+            var docBody = document.getElementById('body-select');
+            
             navLinks.classList.toggle('closed');
             navSection.classList.toggle('fullpage');
-            
+            docBody.classList.toggle('frozenPosition');
         }
     </script>
 </body>

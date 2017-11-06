@@ -1,16 +1,21 @@
 features to add:
     
-    card title need heiarchy
-    consider top hero part
+    1.card title need heiarchy
+    2.next link on project
     
-    next link on project
-    open images lightbox (model)
-    animations
+    3.animations
+    3a. close button on mobile menu
     
+    4. x-axis frozen and menu frozen only working on portfolio page? 
     
-    v.1 in the menu nave
-    icons for skill secton
-    10. for the Images.html add - on other side of bottom descirtion add tools used to create - maybe like a tag with an icon
+    5. width for desktop needs to be narrowed and menu aligned to narrowed width (see.medium.c)
+    5a. width of bottom section on mobile too narrow
+    5b. project and part of image should be shown mobile
+    
+    6. v.1 in the menu nave
+    7. icons for skill secton
+    8. normal font bigger on desktop
+     for the Images.html add - on other side of bottom descirtion add tools used to create - maybe like a tag with an icon
 
     
 bugs: 
@@ -38,11 +43,3 @@ a thought: after core website is done - just add a feature a day... will make it
 
 look into sass - preprocessors - setting up projects with an init
 
-
-
-
-
-to get enlarge working - need to add script DOM ready to each page 
-add actual script at bottom 
-
-fuck this try moving scripts to a folder

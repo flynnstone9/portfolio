@@ -99,7 +99,7 @@
     <div class="columns is-mobile">
         <div class="column"></div>
         <div class="column is-two-thirds">
-            <div class="full-width-image"> <img class="enlarge" src="images/CloudyGreenMt.jpg" onclick="imageEnlarge(this.id)"> </div>
+            <div class="full-width-image"> <img class="enlarge" src="images/wallpapermashside.png" onclick="imageEnlarge(this.id)"> </div>
             <h3 class="is-size-7 light-grey">11/1/17</h3>
             <p class="image-spacing">a grn mtn range</p>
             <div class="lineDivd-images"></div>
@@ -125,7 +125,7 @@
     <div class="columns is-mobile">
         <div class="column"></div>
         <div class="column is-two-thirds">
-            <div class="full-width-image"> <img class="" src="images/coffee.jpg" onclick="imageEnlarge(this.id)"> </div>
+            <div class="full-width-image"> <img class="enlarge" src="images/coffee.jpg" onclick="imageEnlarge(this.id)"> </div>
             <h3 class="is-size-7 light-grey">11/1/17</h3>
             <p class="image-spacing">A test image...</p>
             <div class="lineDivd-images"></div>
@@ -133,13 +133,6 @@
         <div class="column"></div>
     </div>
     <!--image end-->
- 
-    
-
-    
-    
-    
- 
 </div>
 <!--container end-->
     
@@ -189,21 +182,21 @@
                     var num = i;
                     var id = 'img' + num.toString();
                     enlargableImages[i].id = id;
-                    console.log(id);
-                    console.log(num);
+                  
                     }
         }
          
             imgIDs();
         });
      
-                
-        function navToggle() {
+ function navToggle() {
             var navLinks = document.getElementById('nav-links');
             var navSection = document.getElementById('nav-section');
+            var docBody = document.getElementById('body-select');
+            
             navLinks.classList.toggle('closed');
             navSection.classList.toggle('fullpage');
-            
+            docBody.classList.toggle('frozenPosition');
         }
         
         function imageEnlarge(id) {
