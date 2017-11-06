@@ -5,6 +5,8 @@ html {
     overflow: hidden;
     overflow-x: hidden;
     overflow-y: auto;
+    max-width: 100%;
+    
 }
 
 body {
@@ -14,6 +16,8 @@ body {
     padding: 10em 1em;
     background-color: #FFFFFF;
     color: #3D3D3D;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 html,
@@ -107,7 +111,7 @@ nav {
     background-color: #e81c4f;
     opacity: 0.95;
     animation: fading;
-    animation-duration: 0.75s;
+    animation-duration: 0.8s;
     overflow: hidden;
 }
 
@@ -154,7 +158,7 @@ nav {
     background-color: #ffffff;
     opacity: 0.75;
     animation: linedraw;
-    animation-duration: 1.1s;
+    animation-duration: .8s;
 }
 
 @keyframes linedraw {
@@ -165,17 +169,17 @@ nav {
 .link-div {
     margin-top: 12px;
     animation: slidein;
-    animation-duration: 1s;
+    animation-duration: .75s;
     
 }
 
 @keyframes slidein {
     from{ 
-        transform: translateX(-300px);
-        -webkit-transform: translateX(-300px);
-        -moz-transform: translateX(-300px);
-        -ms-transform: translateX(-300px);
-        -o-transform: translateX(-300px);
+        transform: translateX(-100px);
+        -webkit-transform: translateX(-100px);
+        -moz-transform: translateX(-100px);
+        -ms-transform: translateX(-100px);
+        -o-transform: translateX(-100px);
     }
     to{ 
         transform: translateX(0px);

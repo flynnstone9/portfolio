@@ -16,10 +16,16 @@ features to add:
     7. icons for skill secton
     8. normal font bigger on desktop
      for the Images.html add - on other side of bottom descirtion add tools used to create - maybe like a tag with an icon
+     9. make slidy animation only work on mobile
+     10. get copy perfect
+     11. change url name
+     
+     12. back < button 
 
     
 bugs: 
-    for desktop, click "contact" in nav gets rid of nav bar with one or two clicks :(    
+    1. for desktop, click "contact" in nav gets rid of nav bar with one or two clicks :(
+    2. 
     
     
 todo after main work is done: 
