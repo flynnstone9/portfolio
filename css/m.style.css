@@ -170,8 +170,20 @@ nav {
 }
 
 @keyframes slidein {
-    from{ transform: translateX(-300px)}
-    to{ transform: translateX(0px)}
+    from{ 
+        transform: translateX(-300px);
+        -webkit-transform: translateX(-300px);
+        -moz-transform: translateX(-300px);
+        -ms-transform: translateX(-300px);
+        -o-transform: translateX(-300px);
+    }
+    to{ 
+        transform: translateX(0px);
+        -webkit-transform: translateX(0px);
+        -moz-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+        -o-transform: translateX(0px);
+    }
 }
 
 @media only screen and (min-width: 769px) {
