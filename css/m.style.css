@@ -128,7 +128,13 @@ nav {
     width: 20px;
     height: 3px;
     background-color: #282828;
-    margin: 4px 0px
+    margin: 4px 0px;
+}
+
+#closeIcon {
+    font-size:24px;
+    padding: 0;
+    color: #fff;
 }
 
 .nav-links {
@@ -138,7 +144,9 @@ nav {
     padding: 7.5% 1%;
 }
 
-
+.zeroopacity{
+    opacity: 0;
+}
 
 .closed {
     display: none;
@@ -218,6 +226,7 @@ nav {
         margin-top: 0px;
         padding-left: 44px;
         display: inline-block;
+        animation: none;
     }
     nav div div a:link,
     nav div div a:visited {
@@ -245,6 +254,7 @@ nav {
         opacity: 0.95;
         overflow: hidden;
         display: none;
+        animation: none;
     }
     .patty {
         width: 0px;
@@ -253,9 +263,15 @@ nav {
         margin: 4px 0px;
         display: none;
     }
+    #closeIcon {
+    padding: 0;
+    display: none;
+}
     .closed {
         display: block;
+        
     }
+    
     .line {
         height: 0px;
         width: 0%;
@@ -419,3 +435,17 @@ i {
 
 
 
+
+
+
+.nextbutton {
+    padding: 30px 15px 30px;
+}
+
+.nextword:hover {
+    opacity: 0.6;
+}
+
+#nextarrow {
+    color: 3D3D3D;
+}

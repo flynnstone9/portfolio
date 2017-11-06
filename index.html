@@ -19,6 +19,7 @@
         <div class="patty"></div>
         <div class="patty"></div>
         <div class="patty"></div>
+        <i class="fa fa-close zeroopacity" id="closeIcon"></i>
     </div>
     <div class="nav-links closed" id="nav-links">
         <div class="link-div"><a href="index.html" class="active-nav-link">Portfolio</a> </div>
@@ -124,10 +125,15 @@
         function navToggle() {
             var navLinks = document.getElementById('nav-links');
             var navSection = document.getElementById('nav-section');
+            var hamburger = document.getElementsByClassName('patty');
             var docBody = document.getElementById('body-select');
             
+            
+            console.log(hamburger);
             navLinks.classList.toggle('closed');
             navSection.classList.toggle('fullpage');
+             $(".patty").toggleClass("closed");
+            $("#closeIcon").toggleClass("zeroopacity");
             docBody.classList.toggle('frozenPosition');
         }
     </script>

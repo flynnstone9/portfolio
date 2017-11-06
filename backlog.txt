@@ -1,25 +1,21 @@
 features to add:
+    tmrws coding goals:
+    1. build toast'd design 
+    2. add to behance
+    3. 12. back < button 
     
+
     1.card title need heiarchy
-    2.next link on project
-    
-    3.animations
-    3a. close button on mobile menu
-    
-    4. x-axis frozen and menu frozen only working on portfolio page? 
-    
     5. width for desktop needs to be narrowed and menu aligned to narrowed width (see.medium.c)
     5a. width of bottom section on mobile too narrow
-    5b. project and part of image should be shown mobile
-    
     6. v.1 in the menu nave
     7. icons for skill secton
+    # consider adding the animation back to the desktop nave (just remove none if you can get it to only happen once, the first load of page)
     8. normal font bigger on desktop
-     for the Images.html add - on other side of bottom descirtion add tools used to create - maybe like a tag with an icon
-     9. make slidy animation only work on mobile
+     9.for the Images.html add - on other side of bottom descirtion add tools used to create - maybe like a tag with an icon
+    
      10. get copy perfect
      11. change url name
-     
      12. back < button 
 
     
@@ -31,6 +27,7 @@ bugs:
 todo after main work is done: 
     gothrough that reddit web dev frontend checklist
     look at that sites head tag for any other meta tags needed
+    google anlytics scrpts?
 
 
 
