@@ -129,7 +129,8 @@ nav {
     width: 20px;
     height: 3px;
     background-color: #cdcdcd;
-    margin: 4px 0px;
+    margin-bottom: 4px;
+    margin-top: 0px;
 }
 
 #back-arrow {
@@ -162,7 +163,7 @@ nav {
 }
 
 .nav-burger-holder {
-    margin: 7% 10% ;
+    margin: 7% 5% ;
 }
 
 .lower-nav-links {
@@ -456,4 +457,6 @@ i {
 #nextarrow {
     color: 3D3D3D;
 }
+
+
 
