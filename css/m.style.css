@@ -128,16 +128,16 @@ nav {
 .patty {
     width: 20px;
     height: 3px;
-    background-color: #282828;
+    background-color: #cdcdcd;
     margin: 4px 0px;
 }
 
 #back-arrow {
-    color: #282828;
+    color: #cdcdcd;
 }
 
 .nav-back-holder {
-        margin: 7% 5% ;
+        margin: 8% 5% ;
 }
 
 #closeIcon {
