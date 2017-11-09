@@ -14,15 +14,23 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css"> 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
-<nav id="nav-section" class="box-shadow-hard box-shadow-soft"role="navigation" aria-label="main navigation">
+<nav id="nav-section" class="box-shadow-hard box-shadow-soft" role="navigation" aria-label="main navigation">
+  
+    
+    <div>
+       <a href="index.html"> <i class="fa fa-chevron-left fa-lg	is-paddingless nav-back-holder" aria-hidden="true" id="back-arrow"></i></a>
+
+    
     <div class="nav-burger-holder is-pulled-right " id="nav-burger" onclick="navToggle()">
         <div class="patty"></div>
         <div class="patty"></div>
         <div class="patty"></div>
+        <i class="fa fa-close zeroopacity" id="closeIcon"></i>
     </div>
+        </div>
     <div class="nav-links closed" id="nav-links">
-        <div class="link-div"><a href="index.html" class="">Portfolio</a> </div>
-        <div class="link-div"><a href="images.html" class="active-nav-link">Images</a> </div>
+        <div class="link-div"><a href="index.html" class="active-nav-link">Portfolio</a> </div>
+        <div class="link-div"><a href="images.html">Images</a> </div>
         <div class="link-div"><a href="bio.html">Bio</a> </div>
         <div class="link-div"><a href="index.html#emailfooter" onclick="navToggle()">Contact</a> </div>
         <div class="lower-nav-links">
@@ -31,7 +39,6 @@
         </div>
     </div>
 </nav>
-
 <body id="body-select">
     <section id="top-space">
         <div class="container">
@@ -189,14 +196,20 @@
             imgIDs();
         });
      
- function navToggle() {
+        function navToggle() {
             var navLinks = document.getElementById('nav-links');
             var navSection = document.getElementById('nav-section');
+            var hamburger = document.getElementsByClassName('patty');
             var docBody = document.getElementById('body-select');
             
+            
+            //console.log(hamburger);
             navLinks.classList.toggle('closed');
             navSection.classList.toggle('fullpage');
+             $(".patty").toggleClass("closed");
+            $("#closeIcon").toggleClass("zeroopacity");
             docBody.classList.toggle('frozenPosition');
+             $("#back-arrow").toggleClass('closed');
         }
         
         function imageEnlarge(id) {

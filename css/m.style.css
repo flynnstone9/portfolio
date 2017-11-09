@@ -132,6 +132,14 @@ nav {
     margin: 4px 0px;
 }
 
+#back-arrow {
+    color: #282828;
+}
+
+.nav-back-holder {
+        margin: 7% 5% ;
+}
+
 #closeIcon {
     font-size:24px;
     padding: 0;
@@ -154,7 +162,7 @@ nav {
 }
 
 .nav-burger-holder {
-    margin: 10% 10%;
+    margin: 7% 10% ;
 }
 
 .lower-nav-links {
@@ -269,9 +277,11 @@ nav {
     display: none;
 }
     .closed {
-        display: block;
-        
+        display: block;  
     }
+    #back-arrow {
+    display: none;
+}
     
     .line {
         height: 0px;
@@ -446,3 +456,4 @@ i {
 #nextarrow {
     color: 3D3D3D;
 }
+

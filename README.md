@@ -1,4 +1,4 @@
 # portfolio
 
-[CMF | Portfolio](https://github.com/flynnstone9/portfolio/index.html)
+[CMF | Portfolio](https://flynnstone9.github.io/portfolio/)
 

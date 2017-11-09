@@ -1,22 +1,21 @@
 features to add:
     tmrws coding goals:
-    1. build toast'd design 
-    2. add to behance
-    3. 12. back < button 
+    1. back < button nav 
+    2. v.1 in the menu nave
+    3. icons for skill secton
+    4. for the Images.html add - on other side of bottom descirtion add tools used to create - maybe like a tag with an icon plus vsco images
+    5. start work on joey's ui - spend more time here
     
-
+    
+    1. gallerique mobile x-axis not frozen and image do not have the contentwidth margin
     1.card title need heiarchy
     5. width for desktop needs to be narrowed and menu aligned to narrowed width (see.medium.c)
     5a. width of bottom section on mobile too narrow
-    6. v.1 in the menu nave
-    7. icons for skill secton
     # consider adding the animation back to the desktop nave (just remove none if you can get it to only happen once, the first load of page)
     8. normal font bigger on desktop
-     9.for the Images.html add - on other side of bottom descirtion add tools used to create - maybe like a tag with an icon
     
      10. get copy perfect
      11. change url name
-     12. back < button 
 
     
 bugs: 
