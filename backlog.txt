@@ -3,14 +3,14 @@ features to add:
     5. start work on joey's ui - spend more time here
     
     
-    1. gallerique mobile x-axis not frozen and image do not have the contentwidth margin
-    1.card title need heiarchy
     5. width for desktop needs to be narrowed and menu aligned to narrowed width (see.medium.c)
     5a. width of bottom section on mobile too narrow
     8. normal font bigger on desktop
     9. link selecteed dashed thorugh fucked up on everything except portfolio because had to copy nav
+     12. hovering over cards not changing color on desktop
      10. get copy perfect
      11. change url name
+     
      
 minor updates/fixes
 1. nav back button loading ontop of title as page loads in
