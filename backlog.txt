@@ -1,14 +1,14 @@
 features to add:
     tmrws coding goals:
-    5. start work on joey's ui - spend more time here
+    2. start work on joey's ui - spend more time here
     
     
+    8. normal font bigger on desktop
     5. width for desktop needs to be narrowed and menu aligned to narrowed width (see.medium.c)
     5a. width of bottom section on mobile too narrow
-    8. normal font bigger on desktop
+    
     9. link selecteed dashed thorugh fucked up on everything except portfolio because had to copy nav
-     12. hovering over cards not changing color on desktop
-     10. get copy perfect
+   
      11. change url name
      
      

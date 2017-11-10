@@ -209,6 +209,18 @@ nav {
 }
 
 @media only screen and (min-width: 769px) {
+    .contentwidth {
+    max-width: 75%;
+    }
+    
+    p{
+     font-size: 1.2em;
+    }
+    
+    .top-space {
+    margin-top: 50px   
+}
+    /*nav for larger screens */
     nav {
         width: 100%;
         height: 7%;
@@ -224,7 +236,8 @@ nav {
     }
     .nav-links {
         margin: 0;
-        width: 80%;
+        margin-left: -23%;
+        width: 100%;
        font-size: 14px;
         padding: 0px 0px;
         align-content: center;
@@ -233,7 +246,7 @@ nav {
         line-height: 59px;
     }
     .link-div {
-        margin-top: 0px;
+        margin-top: 0px; 
         padding-left: 44px;
         display: inline-block;
         animation: none;
@@ -301,10 +314,11 @@ nav {
         cursor: auto;
         opacity: 0.6;
     }
+    /*end nav for larger screens */
+    
 }
 
 
-/*end tablet and above nav styles */
 
 
 /* end nav styles */
@@ -457,6 +471,16 @@ i {
 #nextarrow {
     color: 3D3D3D;
 }
+
+
+
+
+
+
+.no-left-padding {
+    padding-left: 0px;
+}
+
 
 
 
