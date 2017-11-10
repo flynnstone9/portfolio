@@ -1,15 +1,7 @@
 features to add:
     tmrws coding goals:
     2. start work on joey's ui - spend more time here
-    
-    
-    8. normal font bigger on desktop
-    5. width for desktop needs to be narrowed and menu aligned to narrowed width (see.medium.c)
-    5a. width of bottom section on mobile too narrow
-    
-    9. link selecteed dashed thorugh fucked up on everything except portfolio because had to copy nav
-   
-     11. change url name
+    11. change url name
      
      
 minor updates/fixes
@@ -22,9 +14,8 @@ minor updates/fixes
     
 bugs: 
     1. for desktop, click "contact" in nav gets rid of nav bar with one or two clicks :(
-    2. 
-    
-    
+    2. can scroll when mobile menu is up. had it working with minor bug in jquery
+ 
 todo after main work is done: 
     gothrough that reddit web dev frontend checklist
     look at that sites head tag for any other meta tags needed
