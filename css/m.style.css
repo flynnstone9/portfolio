@@ -308,7 +308,7 @@ nav {
         display: none;
     }
     nav div div a.active-nav-link {
-        text-decoration: line-through;
+        text-decoration: underline;
         color: #e81c4f;
         font-family: 'Roboto Mono', monospace ;
         cursor: auto;
