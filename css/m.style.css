@@ -529,3 +529,10 @@ position: absolute;
 .intrinsic-container-16x12 {
     padding-bottom: 45.25%;
 }
+
+.link-bold {
+    color: #e81c4f !important;
+}
+.link-bold:hover {
+    color: #E5658A;
+}
