@@ -6,7 +6,7 @@ html {
     overflow-x: hidden;
     overflow-y: auto;
     max-width: 100%;
-    
+    cursor: default;
 }
 
 body {
@@ -19,6 +19,7 @@ body {
     max-width: 100%;
     overflow-x: hidden;
     text-rendering: optimizeLegibility;
+    cursor: default;
 }
 
 html,
@@ -30,6 +31,7 @@ span,
 section {
     font-family: 'Lato', "Helvetica", "Arial", sans-serif;
     font-weight: 300;
+    cursor: default;
 }
 
 h1,
@@ -65,11 +67,13 @@ a:visited {
 div a:hover {
     color: #E5658A;
     opacity: 0.8;
+     cursor: default;
 }
 
 a:link:active,
 a:visited:active {
     color: (internal value);
+    cursor: default;
 }
 
 .brownwhitebg {
@@ -105,6 +109,7 @@ nav {
     width: 100%;
     position: fixed;
     z-index: 1000;
+    cursor: default;
 }
 
 .fullpage {
@@ -244,6 +249,7 @@ nav {
         text-align: center;
         vertical-align: middle;
         line-height: 59px;
+        cursor: default;
     }
     .link-div {
         margin-top: 0px; 
@@ -257,7 +263,7 @@ nav {
         color: #3D3D3D;
         font-family: 
         text-decoration: none;
-        cursor: auto;
+        cursor: default;
         opacity: 0.6;
     }
     nav div div a:hover {
@@ -267,6 +273,7 @@ nav {
     a:link:active,
     a:visited:active {
         color: (internal value);
+        cursor: default;
     }
     .nav-burger-holder {
         margin: 0% 0%;
@@ -313,6 +320,7 @@ nav {
         font-family: 'Roboto Mono', monospace ;
         cursor: auto;
         opacity: 0.6;
+        cursor: default;
     }
     /*end nav for larger screens */
     
@@ -535,4 +543,17 @@ position: absolute;
 }
 .link-bold:hover {
     color: #E5658A;
+}
+
+.small-footer {
+    display: none;
+}
+
+@media only screen and (max-width: 700px) {
+    .small-footer {
+        display: inline-block;
+    }
+    .big-footer {
+        display: none;
+    }
 }
