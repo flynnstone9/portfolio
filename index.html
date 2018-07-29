@@ -12,13 +12,16 @@
     <!--bulma test -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+    <script type="text/javascript" src="js/navToggle.js"></script>
+    
 </head>
 <nav id="nav-section" class="box-shadow-hard box-shadow-soft" role="navigation" aria-label="main navigation">
     <div class="nav-burger-holder is-pulled-right " id="nav-burger" onclick="navToggle()">
         <div class="patty"></div>
         <div class="patty"></div>
-        <div class="patty"></div> <i class="fa fa-close zeroopacity" id="closeIcon"></i> </div>
+        <div class="patty"></div>
+        <i class="fa fa-close zeroopacity" id="closeIcon"></i> </div>
     <div class="nav-links closed" id="nav-links">
         <div class="link-div"><a href="index.html" class="active-nav-link">Portfolio</a> </div>
         <!--        <div class="link-div"><a href="images.html">Images</a> </div>-->
@@ -160,22 +163,7 @@
         </div>
         <!--end container -->
     </section>
-    <script>
-        function navToggle() {
-            var navLinks = document.getElementById('nav-links');
-            var navSection = document.getElementById('nav-section');
-            var hamburger = document.getElementsByClassName('patty');
-            var docBody = document.getElementById('body-select');
-            
-            
-            //console.log(hamburger);
-            navLinks.classList.toggle('closed');
-            navSection.classList.toggle('fullpage');
-            $(".patty").toggleClass("closed");
-            $("#closeIcon").toggleClass("zeroopacity");
-            //docBody.classList.toggle('frozenPosition');
-        }
-    </script>
+
 </body>
 
 </html>
