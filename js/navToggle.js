@@ -4,8 +4,12 @@ function navToggle() {
     var hamburger = document.getElementsByClassName('patty');
     var closeIcon = document.getElementById('closeIcon');
     var docBody = document.getElementById('body-select');
+    var mobileheader = document.getElementById('mobile-intro');
+    
+
     navLinks.classList.toggle('closed');
     navSection.classList.toggle('fullpage');
+    mobileheader.classList.toggle('hidden');
     //for loop to toggle class of all the hamburger's array items
     for (var i = 0; i < hamburger.length; i++) {
         hamburger[i].classList.toggle('closed');
