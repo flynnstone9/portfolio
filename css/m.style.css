@@ -47,6 +47,10 @@ img {
     width: 100%
 }
 
+a {
+    cursor: pointer !important;
+}
+
 section {
     padding-top: 75px;
     padding-bottom: 44px;
@@ -456,13 +460,14 @@ i {
     position: fixed;
 }
 
-
 /*card css */
 .card {
-    border: 1px solid #efefef;
+    border-top: 1px solid #efefef;
     /* box-shadow: 2px 6px 25px rgba(0, 0, 0, 0.1); */
     transition: all .3s ease;
     min-height: 100%;
+    overflow: hidden;
+    /* cursor: pointer; */
 }
 
 .card:hover {
@@ -472,8 +477,7 @@ i {
     0 12.5px 10px rgba(0, 0, 0, 0.04),
     0 22.3px 17.9px rgba(0, 0, 0, 0.032),
     0 41.8px 33.4px rgba(0, 0, 0, 0.036),
-    0 100px 80px rgba(0, 0, 0, 0.01)
-  ;
+    0 100px 80px rgba(0, 0, 0, 0.01);
 }
 
 .card-image {
@@ -481,7 +485,13 @@ i {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    /* transition: transform .3s; */
+    
 }
+
+/* .card-image:hover {
+    transform: scale(1.05)
+} */
 
 .card-content {
     margin: 15px 0;
@@ -493,6 +503,10 @@ i {
 
 .card .card-content .subtitle {
     margin: 0px;
+}
+
+.pointer {
+    cursor: pointer !important;
 }
 
 /* card css end */
@@ -590,10 +604,11 @@ iframe {
 
 .link-bold {
     color: #e81c4f !important;
+    border-bottom: 1px dotted;
 }
 
 .link-bold:hover {
-    color: #E5658A;
+    color: #E5658A !important;
 }
 
 .small-footer {
