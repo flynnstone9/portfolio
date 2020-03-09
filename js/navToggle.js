@@ -17,8 +17,8 @@ function navToggle() {
     closeIcon.classList.toggle('zeroopacity');
 }
 
-
 //picture logic for fullcreen - would need to rewrite without jquery and add swipe function 
+// make a carousel
 //        $(document).ready(function () {
 //            function imgIDs() {
 //                var enlargableImages = document.getElementsByClassName('enlarge');

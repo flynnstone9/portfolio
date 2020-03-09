@@ -467,7 +467,7 @@ i {
     transition: all .3s ease;
     min-height: 100%;
     overflow: hidden;
-    /* cursor: pointer; */
+    cursor: pointer;
 }
 
 .card:hover {
@@ -478,6 +478,7 @@ i {
     0 22.3px 17.9px rgba(0, 0, 0, 0.032),
     0 41.8px 33.4px rgba(0, 0, 0, 0.036),
     0 100px 80px rgba(0, 0, 0, 0.01);
+    /* cursor: pointer; */
 }
 
 .card-image {
@@ -485,13 +486,17 @@ i {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    /* transition: transform .3s; */
-    
+    transition: transform .3s;
 }
 
-/* .card-image:hover {
-    transform: scale(1.05)
-} */
+.card:hover .card-image {
+    transform: scale(1.04);
+    cursor: pointer;
+}
+
+.card:hover .subtitle, .card:hover .subheading, .card:hover .card-content {
+    cursor: pointer;
+}  
 
 .card-content {
     margin: 15px 0;
