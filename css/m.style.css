@@ -453,7 +453,7 @@ i {
 }
 
 .light-grey {
-    color: #afafaf;
+    color: #000;
 }
 
 .frozenPosition {
@@ -673,4 +673,18 @@ iframe {
 
 .subtitle-white {
     color: #cdcdcd !important;
+}
+
+.pdf--red {
+    font-size: 14px;
+    color: #e81c4f !important;
+    cursor: pointer;
+}
+
+.pdf--red:hover {
+    text-decoration: underline
+}
+
+.pdf-title {
+    margin-bottom: 0px !important;
 }
