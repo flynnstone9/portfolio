@@ -20,6 +20,9 @@ body {
 	overflow-x: hidden;
 	text-rendering: optimizeLegibility;
 	cursor: default;
+	height: 100%;
+	min-height: 100vh;
+	background-color: #1f1f1f;
 }
 
 html,
