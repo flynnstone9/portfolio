@@ -212,6 +212,9 @@
   0% {
     width: 6px;
     height: 6px;
+    opacity: 0;
+  }
+  10% {
     opacity: 0.6;
   }
   100% {
