@@ -31,10 +31,12 @@ export default function Header() {
         <div className={styles.logoContainer}>
           <div className={styles.logo}>
             <a
-              href="#"
+              href="/"
               onClick={(e) => {
-                e.preventDefault();
-                window.scrollTo({ top: 0, behavior: "smooth" });
+                if (window.location.pathname === "/") {
+                  e.preventDefault();
+                  window.scrollTo({ top: 0, behavior: "smooth" });
+                }
               }}
             >
               {SITE_INFO.name}
