@@ -23,6 +23,14 @@ export const metadata = {
   title: `${SITE_INFO.name} - ${SITE_INFO.title}`,
   description: SITE_INFO.description,
   metadataBase: new URL(SITE_INFO.url),
+  icons: {
+    icon: [
+      { url: "/icon-48x48.png", sizes: "48x48", type: "image/png" },
+      { url: "/icon.png", sizes: "144x144", type: "image/png" },
+    ],
+    shortcut: "/favicon.ico",
+    apple: "/icon.png",
+  },
   openGraph: {
     title: `${SITE_INFO.name} - ${SITE_INFO.title}`,
     description: SITE_INFO.description,
