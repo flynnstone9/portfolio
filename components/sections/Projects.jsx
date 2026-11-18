@@ -26,7 +26,8 @@ function ProjectImage({ image, index, projectTitle, layoutConfig }) {
 
   const imageContent = (
     <>
-      <Image
+      <div className={styles.imageFrame}>
+        <Image
         src={image.src}
         alt={image.caption || `${projectTitle} screenshot ${index + 1}`}
         width={1200}
@@ -34,26 +35,25 @@ function ProjectImage({ image, index, projectTitle, layoutConfig }) {
         className={styles.projectImage}
         sizes={getSizesForSpan(layoutConfig.span)}
         style={{ width: '100%', height: 'auto' }}
-      />
+        />
+      </div>
       {(image.caption || image.link) && (
-        <div className={styles.imageOverlay}>
-          {image.caption && (
-            <span className={styles.overlayCaption}>{image.caption}</span>
-          )}
+        <figcaption className={styles.caption}>
+          {image.caption && <span>{image.caption}</span>}
           {image.link && (
-            <div className={styles.overlayArrow}>
+            <span className={styles.captionArrow} aria-hidden="true">
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M5 11L11 5M11 5H5M11 5V11" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
-            </div>
+            </span>
           )}
-        </div>
+        </figcaption>
       )}
     </>
   );
 
   return (
-    <div className={`${styles.imageWrapper} ${spanClass}`}>
+    <figure className={`${styles.imageWrapper} ${spanClass}`}>
       {image.link ? (
         <a
           href={image.link}
@@ -66,7 +66,7 @@ function ProjectImage({ image, index, projectTitle, layoutConfig }) {
       ) : (
         imageContent
       )}
-    </div>
+    </figure>
   );
 }
 

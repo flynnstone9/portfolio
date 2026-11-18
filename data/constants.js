@@ -86,18 +86,15 @@ export const PROJECTS = [
     role: "Senior Interactive Developer",
     dates: "2021–Present",
     description:
-      "Designed and built the frontend for Ask Apple Developer, the AI search and chat on developer.apple.com, and an AI pipeline translating WWDC session captions into 9 languages. Also shipping high-visibility launches including WWDC, Apple Design Awards, and Swift Student Challenge.",
+      "Designed and built the frontend for Ask Apple Developer, the AI search and chat on developer.apple.com. Also shipping high-visibility launches including WWDC, Apple Design Awards, and Swift Student Challenge.",
     images: [
       {
-        src: "/images/apple/apple-web-home.jpg",
+        src: "/images/apple/apple-web-ask-answer.jpg",
+        caption: "Ask Apple Developer, AI search and chat",
       },
       {
-        src: "/images/apple/apple-web-lg.jpg",
-        caption: "Liquid Glass events campaign",
-      },
-      {
-        src: "/images/apple/apple-web-ada.jpg",
-        caption: "Apple Design Awards web experience",
+        src: "/images/apple/apple-web-ask-code.jpg",
+        caption: "Code answers with cited sources",
       },
       {
         src: "/images/apple/apple-web-ssc.jpg",
@@ -106,7 +103,7 @@ export const PROJECTS = [
       },
     ],
     link: "https://developer.apple.com/",
-    layout: [{ span: 12 }, { span: 12 }, { span: 12 }, { span: 12 }],
+layout: [{ span: 12 }, { span: 6 }, { span: 6 }],
   },
   {
     id: "carhartt",
