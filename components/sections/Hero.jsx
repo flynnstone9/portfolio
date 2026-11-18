@@ -12,7 +12,7 @@ export default function Hero() {
             </h1>
 
             <p className={styles.description}>
-              SF-based product leader building developer experiences at{" "}
+              Bay Area–based technical leader building developer experiences at{" "}
               <a
                 href="https://developer.apple.com/"
                 target="_blank"
@@ -20,9 +20,9 @@ export default function Hero() {
               >
                 Apple&nbsp;Developer
               </a>
-              . I lead cross-functional initiatives across design, engineering,
-              and strategy to ship global campaigns and features that reach
-              millions of developers.
+              . I designed and built the frontend for Ask Apple Developer, the AI
+              search on developer.apple.com, and bridge design and engineering to
+              ship features that reach millions of developers.
             </p>
           </div>
 

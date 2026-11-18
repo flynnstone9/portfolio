@@ -11,7 +11,7 @@ export const SITE_INFO = {
   name: "Connor Flynn",
   title: "Interactive Developer & Designer",
   description:
-    "Engineering leader at Apple specializing in developer experiences and product strategy. I lead cross-functional initiatives from concept to launch, working across design, engineering, and marketing to deliver high-impact features for Apple's global developer community.",
+    "Technical leader in Apple's Developer Relations org with a background in frontend development, UX, and e-commerce. I designed and built the frontend for Ask Apple Developer, the AI search on developer.apple.com, and lead developer experience work from internal AI tools to design system migrations.",
   url: "https://connorf.com",
 };
 
@@ -27,9 +27,9 @@ export const WORK_EXPERIENCE = [
     title: "Senior Interactive Developer",
     company: "Apple Developer",
     description: "Worldwide Developer Relations (WWDR)",
-    dates: "2020—Present",
+    dates: "2021—Present",
     isCurrent: true,
-    tags: ["DevRel", "Frontend", "Design"],
+    tags: ["AI", "Frontend", "Design"],
     logos: ["/images/logos/logo-apple.png"],
     link: "https://developer.apple.com/",
   },
@@ -38,14 +38,14 @@ export const WORK_EXPERIENCE = [
     title: "Interactive Developer",
     company: "FiveM (Acquired by Rockstar Games)",
     description: "Modding Platform for GTA V",
-    dates: "2020—2020",
+    dates: "2021—2021",
     tags: ["Gaming", "Frontend", "DevRel"],
     logos: ["/images/logos/logo-rockstar.png", "/images/logos/logo-cfx.png"],
     link: "https://www.rockstargames.com/newswire/article/8971o8789584a4/roleplay-community-update",
   },
   {
     id: 3,
-    title: "UX Developer",
+    title: "UX Designer / Developer",
     company: "Carhartt",
     description: "Outerwear Apparel Company",
     dates: "2019—2020",
@@ -84,9 +84,9 @@ export const PROJECTS = [
     title: "Apple",
     subtitle: "Developer",
     role: "Senior Interactive Developer",
-    dates: "2020–Present",
+    dates: "2021–Present",
     description:
-      "Building high-visibility experiences and developer tools for Apple's developer ecosystem. Leading interactive development for global campaigns and platform features.",
+      "Designed and built the frontend for Ask Apple Developer, the AI search and chat on developer.apple.com, and an AI pipeline translating WWDC session captions into 9 languages. Also shipping high-visibility launches including WWDC, Apple Design Awards, and Swift Student Challenge.",
     images: [
       {
         src: "/images/apple/apple-web-home.jpg",
@@ -112,7 +112,7 @@ export const PROJECTS = [
     id: "carhartt",
     title: "Carhartt",
     subtitle: "Company Gear",
-    role: "UX Developer",
+    role: "UX Designer / Developer",
     dates: "2019–2020",
     description:
       "Designed and developed a B2B e-commerce platform for Carhartt's corporate apparel division. Built a seamless shopping experience for businesses to order branded workwear and company gear with custom embroidery and decoration options.",
