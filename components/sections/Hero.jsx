@@ -20,9 +20,8 @@ export default function Hero() {
               >
                 Apple&nbsp;Developer
               </a>
-              . I designed and built the frontend for Ask Apple Developer, the AI
-              search on developer.apple.com, and bridge design and engineering to
-              ship features that reach millions of developers.
+              . I bridge design and engineering to ship AI-powered tools and
+              features that reach millions of developers.
             </p>
           </div>
 
